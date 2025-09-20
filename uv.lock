@@ -743,6 +743,7 @@ dependencies = [
     { name = "langchain-google-genai" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
+    { name = "markdown" },
     { name = "python-dotenv" },
     { name = "requests" },
 ]
@@ -758,6 +759,7 @@ requires-dist = [
     { name = "langchain-google-genai" },
     { name = "langchain-ollama" },
     { name = "langchain-openai" },
+    { name = "markdown", specifier = ">=3.9" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "requests", specifier = ">=2.32.5" },
 ]
@@ -855,6 +857,15 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/99/0e/7e218e85e6e10b1313e8bca504917ec260766d3d4d2a30c5fddeeb6e80b1/langsmith-0.4.29.tar.gz", hash = "sha256:7014606b6710cc1b14333c75cdb981d5bea3ed488626a026bad51d2a61e354c4", size = 958792, upload-time = "2025-09-18T22:07:58.742Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/f2/a5/56169ce49b3020b47112703b2f9ed0e3255073c8d438b74406b290fb5687/langsmith-0.4.29-py3-none-any.whl", hash = "sha256:20f39c96057d47a83b6df2b18a5137e2389b5b41f34fe0a64a8d6812de3c0ccf", size = 386229, upload-time = "2025-09-18T22:07:56.887Z" },
+]
+
+[[package]]
+name = "markdown"
+version = "3.9"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/8d/37/02347f6d6d8279247a5837082ebc26fc0d5aaeaf75aa013fcbb433c777ab/markdown-3.9.tar.gz", hash = "sha256:d2900fe1782bd33bdbbd56859defef70c2e78fc46668f8eb9df3128138f2cb6a", size = 364585, upload-time = "2025-09-04T20:25:22.885Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/70/ae/44c4a6a4cbb496d93c6257954260fe3a6e91b7bed2240e5dad2a717f5111/markdown-3.9-py3-none-any.whl", hash = "sha256:9f4d91ed810864ea88a6f32c07ba8bee1346c0cc1f6b1f9f6c822f2a9667d280", size = 107441, upload-time = "2025-09-04T20:25:21.784Z" },
 ]
 
 [[package]]

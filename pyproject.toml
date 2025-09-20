@@ -11,6 +11,7 @@ dependencies = [
     "langchain-anthropic",
     "langchain-ollama",
     "python-dotenv>=1.1.1",
+    "markdown>=3.9",
 ]
 
 [dependency-groups]
