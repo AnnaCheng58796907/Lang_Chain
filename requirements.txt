@@ -1,8 +1,0 @@
-langchain
-python-dotenv
-gradio
-markdown
-langchain-google-genai
-langchain-openai
-langchain-anthropic
-langchain-ollama
