@@ -12,6 +12,7 @@ dependencies = [
     "langchain-ollama",
     "python-dotenv>=1.1.1",
     "markdown>=3.9",
+    "gradio>=5.46.1",
 ]
 
 [dependency-groups]
