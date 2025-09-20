@@ -1,0 +1,11 @@
+---
+description: "langchain上課用"
+globs:
+    - ./lesson4/**
+alwaysApply: true
+---
+
+### ai注意事項
+
+- 這些資料室上課用,請回復簡單易懂的語言
+- 我的課程是langchain
