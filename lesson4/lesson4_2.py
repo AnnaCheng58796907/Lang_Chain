@@ -1,7 +1,7 @@
 from langchain_ollama import ChatOllama
 import gradio as gr
 from dotenv import load_dotenv
-import os
+# import os
 
 # 載入環境變數（可用 OLLAMA_URL / OLLAMA_MODEL 覆蓋預設）
 load_dotenv()
