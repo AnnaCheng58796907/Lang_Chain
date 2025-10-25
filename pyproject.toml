@@ -19,6 +19,8 @@ dependencies = [
     "langchain-community>=0.3.31",
     "langchain-huggingface>=0.3.1",
     "langchain-chroma>=0.2.6",
+    "sentence-transformers>=5.1.2",
+    "ipywidgets>=8.1.7",
 ]
 
 [dependency-groups]
